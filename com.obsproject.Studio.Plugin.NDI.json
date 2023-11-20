@@ -61,6 +61,57 @@
             ]
         },
         {
+            "name": "ffmpeg4.4",
+            "cleanup": [
+                "/include",
+                "/lib/pkgconfig",
+                "/lib/libavcodec.so",
+                "/lib/libavutil.so",
+                "/share/ffmpeg"
+            ],
+            "config-opts": [
+                "--disable-static",
+                "--disable-doc",
+                "--disable-programs",
+                "--disable-devices",
+                "--enable-shared",
+                "--disable-avdevice",
+                "--disable-avformat",
+                "--disable-swresample",
+                "--disable-swscale",
+                "--disable-postproc",
+                "--disable-avfilter",
+                "--enable-pthreads",
+                "--disable-alsa",
+                "--disable-bzlib",
+                "--disable-iconv",
+                "--disable-libxcb-shm",
+                "--disable-libxcb-xfixes",
+                "--disable-libxcb-shape",
+                "--disable-lzma",
+                "--disable-sdl2",
+                "--disable-xlib",
+                "--disable-zlib",
+                "--disable-v4l2-m2m",
+                "--disable-ffnvcodec",
+                "--disable-nvdec",
+                "--disable-nvenc",
+                "--enable-vaapi",
+                "--enable-vdpau",
+                "--enable-libopus",
+                "--enable-libopenh264"
+            ],
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://github.com/FFmpeg/FFmpeg.git",
+                    "tag": "n4.4.4",
+                    "commit": "71fb6132637a2a430375c24afc381fff8b854fe7",
+                    "disable-shallow-clone": true
+                }
+            ]
+        },
+        {
             "name": "obs-ndi",
             "buildsystem": "cmake-ninja",
             "builddir": true,
