@@ -2,7 +2,7 @@
     "app-id": "com.obsproject.Studio.Plugin.NDI",
     "runtime": "com.obsproject.Studio",
     "runtime-version": "stable",
-    "sdk": "org.kde.Sdk//6.5",
+    "sdk": "org.kde.Sdk//6.6",
     "build-extension": true,
     "separate-locales": false,
     "appstream-compose": false,
@@ -108,6 +108,10 @@
                     "tag": "n4.4.4",
                     "commit": "71fb6132637a2a430375c24afc381fff8b854fe7",
                     "disable-shallow-clone": true
+                },
+                {
+                    "type": "patch",
+                    "path": "0001-mathops-clip-constants-used-with-shift.patch"
                 }
             ]
         },
