@@ -5,10 +5,18 @@
   <name>obs-ndi</name>
   <developer>Paul Peavyhouse</developer>
   <summary>NewTek NDI integration for OBS Studio</summary>
-  <url type="homepage">https://github.com/obs-ndi/obs-ndi</url>
+  <url type="homepage">https://github.com/DistroAV/DistroAV</url>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-2.0-or-later AND LicenseRef-proprietary=https://downloads.ndi.tv/SDK/NDI_SDK/NDI%20License%20Agreement.pdf</project_license>
   <releases>
-    <release version="4.13.0" date="2023-11-14"/>
+    <release version="4.14.1" date="2024-08-02">
+      <url type="details">https://github.com/DistroAV/DistroAV/releases/tag/4.14.1</url>
+    </release>
+    <release version="4.14.0" date="2024-07-21">
+      <url type="details">https://github.com/DistroAV/DistroAV/releases/tag/4.14.0</url>
+    </release>
+    <release version="4.13.0" date="2023-11-14">
+      <url type="details">https://github.com/DistroAV/DistroAV/releases/tag/4.13.0</url>
+    </release>
   </releases>
 </component>
