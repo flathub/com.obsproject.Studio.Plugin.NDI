@@ -132,8 +132,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/obs-ndi/obs-ndi.git",
-                    "tag": "4.13.0",
-                    "commit": "bdd6e2610b965f8a743063f768556e318835607a",
+                    "tag": "4.14.1",
+                    "commit": "120d4214039d28f8a2e013a74cc7064106b0a6b7",
                     "x-checker-data": {
                         "type": "git",
                         "is-main-source": true,
