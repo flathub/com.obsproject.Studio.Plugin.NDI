@@ -1,6 +1,8 @@
 {
   "skip-icons-check": true,
   "only-arches": [ "x86_64" ],
-  "disable-external-data-checker": true
+  "disable-external-data-checker": true,
+  "end-of-life": "The extension has been renamed to com.obsproject.Studio.Plugin.DistroAV",
+  "end-of-life-rebase": "com.obsproject.Studio.Plugin.DistroAV"
 }
 
